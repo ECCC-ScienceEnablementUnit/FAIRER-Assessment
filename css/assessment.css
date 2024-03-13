@@ -30,8 +30,8 @@
         .bubble a:hover {color: #000000;}
         .bubble {position: relative;}
         .error {color: red;}
-        #logos img {width:75%;}
-        #subtitle img {width:85%}
+        #logos img {width:100%;}
+        #subtitle img {width:100%;}
         #intro-box, #comment-box {border-style: solid; border-color: #1e3a79; border-radius: 15px; padding-left:15px; padding-bottom:10px; background-color: #f5f5f5;}
         #text-bubble-advice {position: absolute;top: 0px;left: 0px;}
         #print-button {margin-left: 40px;}

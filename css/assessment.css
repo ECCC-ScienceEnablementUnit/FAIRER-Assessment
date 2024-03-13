@@ -1,0 +1,76 @@
+<!-- CSS -->
+    <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+        body, label{font: 14px "Avenir Next", sans-serif;}
+        .col1 {width:80%}
+        .col2 {width:20%}
+        th {
+            background-color: rgb(218, 246, 255); /* Set the background color of table cells */
+            padding-top: 5px; 
+            padding-bottom: 5px; /* Add padding for better appearance */
+          }
+        a {color: #333; text-decoration: none;}
+        a:hover {text-decoration: none;}
+        button {color: #21618C; border: 0px;}
+        button:hover {color: #000000; background-color: #f5f5f5 }
+        .comment-textarea { width: 94%; margin-left: 35px; }
+        .w3-border{border:1px solid #ccc!important}
+        .glyphicon-info-sign {font-size: 1.3em; color: #FFFFFF;}
+        .panel-body .glyphicon-info-sign {font-size: 1.3em; color: #BCBCBC;}
+        .panel {background-color: #FFFFFF; border: 0px;}
+        .modal-header, .modal-footer {margin: 1px;}
+        .modal-body {background-color: #FDFDFD; margin-left: 1px; }
+        .fa-external-link, .fa-envelope-o, .fa-long-arrow-left {color: #2795c8;}
+        .fa-print {font-size: 50px; color: #2795c8;}
+        .bubble a {color: #21618C;}
+        .bubble a:hover {color: #000000;}
+        .bubble {position: relative;}
+        .error {color: red;}
+        #logos img {width:75%;}
+        #subtitle img {width:85%}
+        #intro-box, #comment-box {border-style: solid; border-color: #1e3a79; border-radius: 15px; padding-left:15px; padding-bottom:10px; background-color: #f5f5f5;}
+        #text-bubble-advice {position: absolute;top: 0px;left: 0px;}
+        #print-button {margin-left: 40px;}
+        #A-i-title {color: #000000}
+        #panel-heading-findable {background-image: none; background-color: #1e3a79; }
+        #panel-title-findable {color: #FFFFFF;background-color: #1e3a79; font-size: 20px;}
+        #panel-heading-accessible {background-image: none; background-color: #ffde1b; }
+        #panel-title-accessible {color: #FFFFFF;background-color: #ffde1b; font-size: 20px;}
+        #panel-heading-interoperable {background-image: none; background-color: #00a7d4; }
+        #panel-title-interoperable {color: #FFFFFF;background-color: #00a7d4; font-size: 20px;}
+        #panel-heading-reusable {background-image: none; background-color: #5c85c4; }
+        #panel-title-reusable {color: #FFFFFF;background-color: #5c85c4; font-size: 20px;}
+        #panel-heading-ethical {background-image: none; background-color: #5cc468; }
+        #panel-title-ethical {color: #FFFFFF;background-color: #5cc468; font-size: 20px;}
+        #panel-heading-reproducible {background-image: none; background-color: #c64ce1; }
+        #panel-title-reproducible {color: #FFFFFF;background-color: #c64ce1; font-size: 20px;}
+        #fscore {padding-top: 26px; padding-left: 10px; font-size: 13px;}
+        #ascore {padding-top: 26px; padding-left: 10px; font-size: 13px;}
+        #iscore {padding-top: 26px; padding-left: 10px; font-size: 13px;}
+        #rscore {padding-top: 26px; padding-left: 10px; font-size: 13px;}
+        #escore {padding-top: 26px; padding-left: 10px; font-size: 13px;}
+        #pscore {padding-top: 26px; padding-left: 10px; font-size: 13px;}
+        #total-score-percent {color: #1e3a79;}
+        #total-score {font-size: 20px; text-align: center; margin-left: 0px; margin-right: 0px;}
+        #image-f, #image-a, #image-i, #image-r, #image-p{padding-top: 5px;}
+        #image-e {padding-top: 5px; width: 18%;}
+        #comment-box li {padding-right:18px;}
+        @media (min-width: 768px) {
+            div.col-md-2 {padding-left: 2px;}
+            div.col-md-10 {padding-left: 2px;}
+            #image-f, #image-a, #image-i, #image-r, #image-p {padding-top: 5px;}
+            #image-e {padding-top: 5px;  width: 87%;}
+            #total-score {font-size: 30px; text-align: center; margin-left: 30px; margin-right: 30px;}
+        }
+        @media (min-width: 1025px) {
+            div.col-md-2 {padding-left: 10px;}
+            div.col-md-10 {padding-left: 10px;}
+            #total-score {font-size: 38px; text-align: center; margin-left: 50px; margin-right: 50px;}
+        }
+        @media print {.pagebreak { page-break-before: always; }}
+
+    </style>

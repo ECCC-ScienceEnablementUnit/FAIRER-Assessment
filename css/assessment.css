@@ -30,7 +30,7 @@
         .bubble a:hover {color: #000000;}
         .bubble {position: relative;}
         .error {color: red;}
-        #logos img {width:50%;}
+        #logos img {width:30%;}
         #subtitle {
             display: flex;
             align-items: center; /* Vertically center align */

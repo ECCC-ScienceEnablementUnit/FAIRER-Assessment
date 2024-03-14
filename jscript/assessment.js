@@ -7,7 +7,6 @@
         function initialise() {
             update();
             document.getElementById("texts").style.display = "none"
-            document.getElementById("total-score").style.display = "none"
             letters.forEach( function (letter) {document.getElementById(letter + "-advice").style.display = "none"});
             if(!window.print) {document.getElementById("print-button").style.display = "none"}
         }
@@ -48,7 +47,6 @@
         function show_total_score() {
             var total_score = Math.round(((fscore + ascore + iscore + rscore + escore + pscore) / 6));
             $("#total-score-percent").html(" " + total_score + "% ");
-            document.getElementById("total-score").style.display = "block"
         }
 
         function write_to_modal(title, contents) {

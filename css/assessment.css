@@ -15,7 +15,7 @@
           }
         a {color: #333; text-decoration: none;}
         a:hover {text-decoration: none;}
-        button {color: #21618C; border: 0px;}
+        button {color: #1e3a79; border: 0px;}
         button:hover {color: #000000; background-color: #f5f5f5 }
         .comment-textarea { width: 94%; margin-left: 35px; }
         .w3-border{border:1px solid #ccc!important}
@@ -24,12 +24,18 @@
         .panel {background-color: #FFFFFF; border: 0px;}
         .modal-header, .modal-footer {margin: 1px;}
         .modal-body {background-color: #FDFDFD; margin-left: 1px; }
-        .fa-external-link, .fa-envelope-o, .fa-long-arrow-left {color: #2795c8;}
-        .fa-print {font-size: 50px; color: #2795c8;}
+        .fa-external-link, .fa-envelope-o, .fa-long-arrow-left {color: #1e3a79;}
+        .fa-print {font-size: 50px; color: #1e3a79;}
         .bubble a {color: #21618C;}
         .bubble a:hover {color: #000000;}
         .bubble {position: relative;}
         .error {color: red;}
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+        }
         #logos img {width:15%;}
         #subtitle {
             display: flex;
@@ -38,7 +44,18 @@
         #subtitle img {width:100%;}
         #intro-box, #comment-box {border-style: solid; border-color: #1e3a79; border-radius: 15px; padding-left:15px; padding-bottom:10px; background-color: #f5f5f5;}
         #text-bubble-advice {position: absolute;top: 0px;left: 0px;}
-        #print-button {margin-left: 40px;}
+        #print-button {
+            color: #1e3a79;
+            background-color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+
+        #checklist-score {
+            font-size: 36px;
+            margin: 0 auto;
+            text-align: center;
+        }
         #A-i-title {color: #000000}
         #panel-heading-findable {background-image: none; background-color: #1e3a79; }
         #panel-title-findable {color: #FFFFFF;background-color: #1e3a79; font-size: 20px;}

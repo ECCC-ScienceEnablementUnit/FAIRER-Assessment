@@ -33,7 +33,7 @@
             align-items: center;
             height: 10vh;
         }
-        #logos img {width:15%;}
+        #logos img {width:35%;}
         #subtitle {
             display: flex;
             align-items: center; /* Vertically center align */
